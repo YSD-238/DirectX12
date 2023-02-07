@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{50f5f68d-2863-4ca4-90db-828c2b1141b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{47584203-567b-4b93-980b-5e95414c4ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio">
+      <UniqueIdentifier>{d82a1f67-0888-4f6c-be60-86d35cbeccd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DebugText">
+      <UniqueIdentifier>{237bdce4-9e62-47dd-9bc6-8188f921747d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{0c55f59d-b772-4e92-9b6f-559754da1f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object3d">
+      <UniqueIdentifier>{15a6d525-ec75-4a1c-acd6-b7a6833bf39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PipelineSet">
+      <UniqueIdentifier>{712955f3-3eee-487c-950b-19f16302289c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite">
+      <UniqueIdentifier>{1b6a1f3c-513a-4be8-9be6-75a0cbd533d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite\SpriteCommon">
+      <UniqueIdentifier>{8a5f80f1-f5fd-4802-b3b4-c170b92bcf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{513b9996-4c4e-44de-856d-927741815bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Framework">
+      <UniqueIdentifier>{a322c38a-4d31-470f-a927-c8921df0486a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object3d\OBJ">
+      <UniqueIdentifier>{c2adb965-599c-4c37-a6ff-eaf3ebc0461d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object3d\Light">
+      <UniqueIdentifier>{f40f9e3a-4e34-4cd9-a7a3-eec55b1a4d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object3d\Camera">
+      <UniqueIdentifier>{c7414421-fb7c-4d56-a298-dadce53dc57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\OBJ">
+      <UniqueIdentifier>{6bc30916-4b71-4f1a-8aa2-f9f834c6a724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Particle">
+      <UniqueIdentifier>{bbdd1bc5-478d-430a-b158-ee97dbf40bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Sprite">
+      <UniqueIdentifier>{7321e574-1ed9-41ef-a388-bae85dcb46ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object3d\Particle">
+      <UniqueIdentifier>{194c33c2-bf62-4329-b922-6e90965e8fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\SafeDelete">
+      <UniqueIdentifier>{ef74e972-f161-4333-85aa-73b761c05d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collison">
+      <UniqueIdentifier>{217e5519-06cd-418d-bcfc-aae9f3d49dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collison\Collider">
+      <UniqueIdentifier>{cbb53e4b-6353-4d13-a4b7-75f334c687d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\OBJ\BaseShader">
+      <UniqueIdentifier>{c98a9ce1-38db-4562-9f9d-a36b9e31f6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{f68ffb43-b72c-4a52-b12d-5ec6fa11bef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{e2f4fe13-7f09-412f-94f0-aa990d898377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\WindowsApplication">
+      <UniqueIdentifier>{8bb42c76-2c9a-43c5-a4f4-201ab0d71a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\BaseScene">
+      <UniqueIdentifier>{d7624191-4637-4e5c-bf62-412fd49ebd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectXBase">
+      <UniqueIdentifier>{08369c9e-6a95-461e-8ba2-7be172026fd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio\Audio.cpp">
+      <Filter>Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\DebugText.cpp">
+      <Filter>Engine\DebugText</Filter>
+    </ClCompile>
+    <ClCompile Include="base\DirectXBase.cpp">
+      <Filter>Engine\DirectXBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Sprite.cpp">
+      <Filter>Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\SpriteCommon.cpp">
+      <Filter>Engine\Sprite\SpriteCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="base\WindowsApplication.cpp">
+      <Filter>Engine\WindowsApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Framework.cpp">
+      <Filter>Base\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\Object3d.cpp">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\Model.cpp">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\Material.cpp">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\Mesh.cpp">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="light\LightGroup.cpp">
+      <Filter>Engine\Object3d\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\Camera.cpp">
+      <Filter>Engine\Object3d\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\ParticleManager.cpp">
+      <Filter>Engine\Object3d\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\Collision.cpp">
+      <Filter>Engine\Collison</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\CollisionManager.cpp">
+      <Filter>Engine\Collison</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\SphereCollider.cpp">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\CollisionPrimitive.cpp">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\MeshCollider.cpp">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\BaseScene.cpp">
+      <Filter>Base\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="scene\GamePlayScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\shaders\ParticleGS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ParticlePS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ParticleVS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\SpritePS.hlsl">
+      <Filter>Shader\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\SpriteVS.hlsl">
+      <Filter>Shader\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\OBJPixelShader.hlsl">
+      <Filter>Shader\OBJ\BaseShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\OBJVertexShader.hlsl">
+      <Filter>Shader\OBJ\BaseShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\Particle.hlsli">
+      <Filter>Shader\Particle</Filter>
+    </None>
+    <None Include="Resources\shaders\Sprite.hlsli">
+      <Filter>Shader\Sprite</Filter>
+    </None>
+    <None Include="Resources\shaders\OBJShaderHeader.hlsli">
+      <Filter>Shader\OBJ\BaseShader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio\Audio.h">
+      <Filter>Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\DebugText.h">
+      <Filter>Engine\DebugText</Filter>
+    </ClInclude>
+    <ClInclude Include="base\DirectXBase.h">
+      <Filter>Engine\DirectXBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\PipelineSet.h">
+      <Filter>Engine\PipelineSet</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SafeDelete.h">
+      <Filter>Base\SafeDelete</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Sprite.h">
+      <Filter>Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\SpriteCommon.h">
+      <Filter>Engine\Sprite\SpriteCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="base\WindowsApplication.h">
+      <Filter>Engine\WindowsApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Framework.h">
+      <Filter>Base\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Model.h">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Material.h">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Mesh.h">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="light\LightGroup.h">
+      <Filter>Engine\Object3d\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="light\DirectionalLight.h">
+      <Filter>Engine\Object3d\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\Camera.h">
+      <Filter>Engine\Object3d\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\ParticleManager.h">
+      <Filter>Engine\Object3d\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\Collision.h">
+      <Filter>Engine\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionInfo.h">
+      <Filter>Engine\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionTypes.h">
+      <Filter>Engine\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionManager.h">
+      <Filter>Engine\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\BaseCollider.h">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\SphereCollider.h">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionPrimitive.h">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionAttribute.h">
+      <Filter>Engine\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\QueryCallback.h">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\RaycastHit.h">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\MeshCollider.h">
+      <Filter>Engine\Collison\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\BaseScene.h">
+      <Filter>Base\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="timer\Timer.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Object3d.h">
+      <Filter>Engine\Object3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GamePlayScene.h" />
+  </ItemGroup>
+</Project>
